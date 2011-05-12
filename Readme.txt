@@ -1,221 +1,215 @@
 Courseplay - Abfahrhelfer für LS 2011 v 1.2
 
-Inhaltsverzeichnis
-
 I. Changelog
-II.   Installationsanweisung
-III.  Bedienungsanleitung
+II.   Instaltion
+III.  Mode d'emploi
 IV. Credits
 
 
-Ia. Changelog - Änderungen seit Version 1.2
+Ia. Changelog - Version 1.2
 
-	Neu hinzugekommen sind vor allem der Feldmodus mit dem man Ballen pressen und Heusammeln kann. Der Güllemodus wurde weiter perfektioniert und es ist jetzt auch möglich den Abfahrhelfer in Drescher und Häcksler einzubauen.
-	Damit kann man beispielsweise mit Dreschern im Helfermodus Kurse aufzeichnen lassen die man dann später für den Gülle- oder Feldmodus verändern kann.
-	Zudem gibt es eine Steuerung des Abfahrhelfers aus dem Drescher heraus. Man kann einen Abfahrhelfer rufen, starten, stoppen und beim Häcksler die Seite des Abfahrers ändern.
-	Beim Abfahrhelfer kann man jetzt einstellen bei wieviel Prozenz Füllstand er frühzeitig abfahren soll. Hat ein Abfahrer zum Beispiel einen Füllstand von 90% und der Drescher wendet am Ende des Feldes, fährt der Abfahrer gleich ab und wartet nicht auf das Wendemanöver.
-	Zudem fährt der Überladewagen an seinem Überladepunkt wieder zurück aufs Feld wenn er einen gewissen Füllstand unterschritten hat und für etwa 20 Sekunden kein weiterer Abfahrer zum überladen konmmt.
-	Außerdem wurrde gewünscht, dass der Abfahrhelfer auf der Straße seine Rundumleuchte einschaltet - das tut er jetzt ;)
-	Dann gab es natürlich auch noch etwas Feintuning: Das unsinnige Kreiseln auf dem Feld sollte jetzt vorbei sein, HW80 Drehschemel und Agroliner Container werden jetzt auch unterstützt. 
+	Parmi les nouveautés, en particulier le mode de domaine avec lequel vous pouvez Heusammeln et des balles. Le mode de suspension a été encore amélioré et il est maintenant possible dans la Drescher Abfahrhelfer et broyeurs installés.
+	Cela peut, par exemple enregistrer avec batteuses dans le mode d'assistance, le cours peut être changé plus tard pour le mode de fumier ou de terrain.
+	Il publie également un Abfahrhelfers de contrôle de la Drescher. Vous pouvez démarrer un appel Abfahrhelfer, arrêter et changer sur le côté du skieur chopper.
+	Lorsque Abfahrhelfer vous pouvez désormais fixé à combien il doit partir tôt niveau Prozenz. Si une descente tour par exemple, un niveau de 90% et le Drescher à la fin du champ descend de la même et ne pas attendre que la manœuvre.
+	En outre, le véhicule de transfert se déplace à son ordre du quai de retour sur le terrain quand il est tombé en dessous d'un certain niveau et konmmt surchargé pendant environ 20 secondes, pas plus en descente pour.
+	Wurrde aussi aimé l'Abfahrhelfer son tour sa balise sur la route - il le fait maintenant;)
+	Alors bien sûr il y avait encore quelques ajustements: les gyroscopes insensée sur le terrain devrait maintenant être plus, des conteneurs HW80 plateau tournant et Agroliner sont maintenant supportés.
 	
 
-Ib. Changelog - Änderungen seit Version 1.0
+Ib. Changelog - Version 1.0
 
-	Als neue Funktionen sind im wesentlichen der Düngemodus und das Rückwärtsfahren hinzugekommen. Außerdem wurde das Fahrverhalten (besonders in Kurven) verbessert und es werden mehr EntladeTrigger (Gras und Silage) erkannt.
-	Zudem kann man jetzt gespeicherte Kurse kombinieren indem man mehrere Kurse hintereinander lädt. Wenn man nur einen neuen Kurs laden will muss man allerdings jetzt vorher die Wegpunkte des alten zurücksetzen.
-	Außerdem ist der Abfahrhelfer jetzt kein "hireable" mehr, das heißt er verbraucht jetzt Benzin(Dünger..) beim Fahren. Damit der Abfahrer nicht einfach irgendwo stehen bleibt bekommt man eine Warnung sobald der Tank fast leer ist und bei einem minimalen Tankinhalt bleibt der Abfahrhelfer stehen damit man ihn noch bis zur Zapfsäule bekommt.
-	Im Menu wurde noch der "BUG" behoben, dass man das Menu mit allen Maustasten steuern konnte.
-	Natürlich gab es noch viele weitere kleine Bugfixes.
+	Comme nouvelles fonctionnalités sont ajoutées sensiblement à la mode de fertilisation et l'inverse. En outre, la gestion améliorée (en particulier dans les virages) et il sera reconnu plus EntladeTrigger (ensilage d'herbe).
+	En outre, vous pouvez maintenant combiner les cours de chargement stockées par plusieurs cours d'affilée. Si vous voulez charger uniquement nouveau cours, vous devez réinitialiser maintenant, mais avant les points de passage de l'ancien.
+	En outre, le Abfahrhelfer n'est désormais «pourrez jamais l'être" plus, ce qui signifie qu'elle consomme de l'essence aujourd'hui (Dünger..) Pendant que vous conduisez. Alors que le skieur ne reste pas seulement se situent quelque part et vous obtenez un avertissement lorsque le réservoir est presque vide et avec une capacité de réservoir minimum reste Abfahrhelfer rester immobile pendant un à se rendre à la station de remplissage.
+	Le menu était toujours le "BUG" fixe que vous pouvez contrôler le menu avec tous les boutons.
+	Bien sûr, il y avait beaucoup d'autres petites corrections de bugs.
+
+	Cette fois, un très grand merci à Wolverine, qui mettaient en œuvre une grande partie de cette mise à jour (engrais et le mode inverse).
+	Nous continuons à avoir une version 2 qui est entièrement capable multijoueur, la dernière version 1.20, mais au moins dans la MP de l'hôte à utiliser.
+
+
+II. Instalation
+
+1. Copier aacourseplay.zip dans le dossier C:\Users\dein Username\MyGames\FarmingSimulator2011\mods
+
+Si vous avez une version antérieur du courseplay remplacer celle ci par l'ancienne.
+
+2. Ouvez le modesc tu tracteur, batteuse ou autre ou vous voulez mettre le courseplay, chercher les lignes <vehicleTypes> vous verrez plein de <specialization name="XxXxXX" /> juste en dessous de sa mettez :
+
+
+        <specialization name="courseplay" />
+
+
+Sauvgardé le modesc et re-ziper
+
+
+
+III. Mode d'emploie
+
+
+	Controle :
 	
-	Dieses Mal geht ein besonders großer Dank an Wolverine, der einen Großteil dieses Updates (Düngemodus und Rückwärtsfahren) implementiert hat.
-	Wir haben weiterhin an einer Version 2 die komplett multiplayerfähig ist, die aktuelle Version 1.20 ist aber zumindest im MP vom Host bedienbar.
-
-
-
-II. Installationsanweisung
-
-1. Das Archiv aacourseplay.zip in das Verzeichnis C:\Users\dein Username\MyGames\FarmingSimulator2011\mods kopieren
-
-ACHTUNG: Beim Update von version 1.0 müsst ihr NUR die alte aacourseplay.zip durch die neue ersetzen, es muss NICHTS am Schlepper geändert werden.
-
-2. Jetzt das Archiv des Schleppers entpacken den du mit dem Abfahrhelfer versehen willst und in der moddesc.xml folgende Einträge machen
-
-<vehicleTypes>
-        ...
-        ...
-        ...
-        <specialization name="courseplay" />  <<-- Diese Zeile muss eingetragen werden
-</vehicleTypes>
-
-anschließend die Dateien wieder zurückpacken.
-
-Das ganze Entpacken und Packen kann man sich mit dem Totalcommander oder Winrar sparen, da er das Entpacken und Packen automatisch macht.
-Hier einfach das Archiv öffnen, Datei bearbeiten, speichern, schließen und zurückpacken bestätigen.
-
-
-
-III. Bedienungsanleitung
-
-
-	Steuerung:
-	
-		Die Steuerung des Abfahrhelfers funktioniert im wesentlichem mit der Maus da freie Tasten im Landwirtschafts Simulator ja sehr rah sind.
-		Mit einem Klick auf die rechte Maustaste aktiviert ihr das Courseplay HUD in dem ihr den Abfahrer konfigurieren könnt. Zusätzlich sind einige Funktionen wie Abfahrer starten und stoppen auch über die Tastatur über die Tasten NUMPAD 7 bis NUMPAD 9 belegt.
+             	Vous pouvez cliquer sur les mots directement avec la souris.
 	
 	HUD:
-	
-		Wenn ihr das HUD öffnet wird automatisch die Maussteuerung aktiviert. Das heißt ihr könnt euch mit der Maus nicht mehr umgucken. Um die Maussteuerung zu deaktivieren müsst ihr einfach nochmal auf die rechte Maustaste klicken.
-		Alternativ könnt ihr auch auf das rote X oben rechts im HUD klicken. Dabei wird das HUD geschlossen und die Maussteuerung wieder deaktiviert.
-	
-		Das HUD ist in mehrere Unterseiten unterteilt. Diese könnt ihr mit den blauen Pfeilen im oberen Bereich des HUDs wechseln.
-		Im mittleren Bereich des HUDs könnt ihr auf jeder Unterseite verschiede Einstellungen vornehmen oder Befehle geben. Klickt dazu einfach auf die gewünschte Aktion.
-	
-		Im unteren Bereich des HUDs findet ihr Infos über euren Abfahrer den geladenen Kurs und den aktuellen Status. Dort könnt ihr durch klick auf die Diskette euren eingefahrenen Kurs auch speichern.
-	
-	HUD "Abfahrhelfer Steuerung":
-	
-		Kursaufzeichnung beginnen:
+
+			Pour Activer le HUD cliquez sur le bouton droit de la souris, NE Vous pouvez Pas Bouger la caméra la, si Vous le clique droit sur rapuyer Vous pouvez utiliser »la caméra, versez fermer le HUD cliquer sur la croix rouge.
+
+			Le HUD est divisé en plusieurs sous-sites. Cela peut le modifier par les flèches bleues dans la partie supérieure de la palette.
+			Dans le milieu du HUD, vous pouvez effectuer différents réglages sur chaque page, ou donnent des ordres. Il suffit de cliquer sur l'action souhaitée.
+
+			Le bas de la palette, vous pouvez trouver des informations sur le taux de descente chargé et l'état actuel. Là, vous pouvez cliquer sur votre disquette rétractée bien sûr enregistrer.
+
+	HUD "contrôle Abfahrhelfer":
+
+	enregistrement de début des cours:
+
+			Avec cette option, le mode d'enregistrement de la Abfahrhelfers est activé. Vous pouvez entrer alors que le cours est d'aller le plus tard la descente.
+			Lorsqu'il est activé, initialement trois barriques sont placées à une distance de 10-20 mètres. Vous devez vous assurer que sa place à la troisième fût possible tout de suite.
+			Si vous avez activé cette fonction, vous pouvez avec le bouton droit de la souris pour contrôler la souris désactiver si vous pouvez regardez autour de vous lors de l'entrée du cours, aussi.
+
+	taux Arrêter l'enregistrement:
+
+			Si le journal de trajet est peut mettre en pause par cette fonction, le record du parcours. Vous verrez une flèche jaune pointant vers le dernier point. En outre, vous pouvez supprimer dans ce mode, le dernier point de cheminement.
+
+	Arrêter l'enregistrement taux de:
+
+			Cette action n'est que le mode d'accueil vergügbar et sert à arrêter cela. Cliquez sur ce bouton quand elle est revenue sur le point d'arrivée de votre itinéraire que vous avez obtenus.
+			Il est recommandé que le critère est d'environ 10 mètres avant le point de départ et c'est à peu près de la direction dans laquelle la descente au point de départ est de le poursuivre.
+
+	C'est le point de départ de l'attente:
+
+			En mode d'enregistrement, vous pouvez avoir des points sur la ligne d'attente à mettre en place. À ce stade, le skieur va arrêter plus tard lors de l'arrêt jusqu'à ce qu'il soit manuellement envoyé.
+			Si un skieur a atteint un point d'attente vous avez affiché au bas de l'écran.
+
+	Descente jeu:
+
+			Si vous avez été un cours, vous pouvez maintenant définir la descente. Ici, le Abfahrhelfer activée et fonctionne bien hors de sa route.
+
+	Descente rejeté:
+
+			Le cours activé descente, vous pouvez arrêter à tout moment ou libéré.
+			Si vous avez activé l'Abfahrhelfer plus tard, il continuera sa route sur le dernier point.
+
+	Continuer:
+
+			Cette option est disponible pour vous lorsque le skieur a atteint le point d'attente.
+
+	Descente-type de commutateur:
+
+			Cela peut faire la Abfahrhelfer autant de tâches qu'il existe différents types Abfahrhelfer.
+			Le type actuel est affiché au bas de la palette. Avec un clic sur l'action peut passer par leurs types.
 			
-			Mit dieser Option wird der Aufnahmemodus des Abfahrhelfers aktiviert. Ihr könnt damit den Kurs einfahren den der Abfahrer später fahren soll.
-			Bei Aktivierung werden anfangs drei Fässchen im Abstand von 10-20 Metern gesetzt. Ihr solltet darauf achten, dass ihr bis zum dritten Fass nach Möglichkeit geradeaus fahrt.
-			Wenn ihr diese Funktion aktiviert habt könnt ihr mit der rechten Maustaste die Maussteuerung deaktivieren damit ihr euch beim Einfahren des Kurses auch umschauen könnt.
-		
-		Kursaufzeichnung anhalten:
-		
-			Wenn die Kursaufzeichnung läuft könnt ihr mit dieser Funktion die Kursaufzeichnung pausieren. Es wird ein gelber Pfeil angezeigt der zum letzten Wegpunkt zeigt. Zusätzlich könnt ihr in diesem Modus auch den letzten Wegpunkt löschen.
-		
-		Kursaufzeichnung beenden:
+			Type: Pour remorque
 			
-			Diese Aktion ist nur im Aufnahmemodus vergügbar und dient dazu diesen zu beenden. Klickt auf diese Funktion wenn ihr den Endpunkt eurer eingefahrenen Route erreicht habt.
-			Es empfiehlt sich, dass der Endpunkt etwa 10 Meter vor dem Startpunkt liegt und dass man grob aus der Richtung kommt in die der Abfahrer beim Startpunkt auch weiterfahren soll.
-			
-		Hier Wartepunkt setzen:
-		
-			Im Aufnahmemodus habt ihr die Möglichkeit auf der Strecke Wartepunkte zu setzen. An diesen Punkten wird der Abfahrer später beim Abfahren anhalten bis man ihn manuell weiter schickt.
-			Wenn ein Abfahrer einen Wartepunkt erreicht hat wird euch das am unteren Bildschirmrand angezeigt.
-			
-		Abfahrer einstellen:
-		
-			Wenn ihr einen Kurs eingefahren habt könnt ihr jetzt den Abfahrer einstellen. Dabei wird der Abfahrhelfer aktiviert und fährt brav seine Route ab.
-			
-		Abfahrer entlassen:
-			
-			Den aktivierten Abfahrer könnt ihr natürlich auch jederzeit entlassen bzw. anhalten.
-			Wenn ihr den Abfahrhelfer später wieder aktiviert wird er seine Route am letzen Punkt fortführen.
-			
-		weiterfahren:
-		
-			Diese Option steht euch zur Verfügung wenn der Abfahrer einen Wartepunkt erreicht hat.
-			
-		Abfahrer-Typ wechseln:
-		
-			Damit der Abfahrhelfer möglichst viele Aufgaben erledigen kann gibt es verschiedene Abfahrhelfer Typen.
-			Der aktuelle Typ wird im unteren Bereich des HUDs angezeigt. Mit klick auf diese Aktion könnt ihr die Typen durchgehen.
-			
-			Typ: Abfahrer
-			
-				Der Typ Abfahrer wartet am Startpunkt bis er voll beladen ist und fährt erst dann die Route ab. Wenn er auf seiner Route über eine Abkippstelle kommt hält er an und entleert seine(n) Anhänger.
-				Man kann dem Abfahrer am Startpunkt allerdings auch sagen, dass er sofort abfahren soll.
+				Le type de skieur attend au point de départ jusqu'à ce qu'il soit complètement chargé et que puis s'éteint la route. Quand il vient dans sa route à travers un des points de basculement, il s'arrête et vidé son (s) remorques.
+                                Vous pouvez dire à la descente au point de départ, cependant, qu'il devait quitter immédiatement.
 				
 				
-			Typ: Kombiniert
+			Type: Batteuse
 			
-				Der Kombinierte Modus ist ähnlich wie der Abfahrer Modus mit dem Unterschied, dass der Abfahrer am Startpunkt nicht wartet bis er beladen ist sondern selbstständig zu einem Drescher oder Häcksler auf dem aktuellen Feld fährt und diese bedient.
-				Wenn alle Hänger voll sind fährt der Abfahrer das zweite Fässchen auf seiner Route an und fährt von da an die Route ab wie der normale Abfahrer.
-				Damit der kombinierte Modus funktioniert muss der Startpunkt des Abfahrers unbedingt auf dem gleichen Feld liegen auf dem der oder die Drescher sind.
+				Le mode combiné est similaire au mode de descente avec la différence que la descente au point de départ ne pas attendre jusqu'à ce qu'il soit chargé, mais indépendamment d'une batteuse ou hachoirs sur le terrain en cours et se déplace qu'elle dessert.
+                                Si tous les supports sont pleins de pistes de ski alpin, le deuxième baril sur sa route et va de là à la route que la descente régulière.
+                                Pour que le mode combiné, le point de départ du skieur doit être sur le même terrain ou sur le Drescher sont.
 				
-			Typ: Überladewagen
+			Type: Véhicule de transfert
 				
-				Beim Typ Überladewagen fährt der Abfahrer auch direkt zum Drescher oder Häcksler und fährt anschließend seine Route ab. Der Unterschied hierbei ist, dass der Überladewagen "Wartepunkte" als "Abladepunkte" nutzt.
-				Wenn der Überladewagen also voll ist fährt er seine Route bis zum Wartepunkt ab und fährt dort automatisch weiter, wenn der Überladewagen leer ist.
+                                Avec le type de véhicule de transfert descentes directement à la batteuse ou hachoirs puis s'éteint sa route. La différence ici est que le véhicule de transfert "attendre points»comme «Abladepunkte" utilise.
+                                Si le véhicule de transfert est plein alors il s'en va sa route vers le point d'attente et il va automatiquement lorsque le véhicule de transfert est vide.
 				
-			Typ: Überführung
+			Type: Transfert
 			
-				In diesem Modus fährt der Abfahrer lediglich seine Route ab. Er wartet nicht am Startpunkt und wird an Abladestellen auch nicht entladen.
-				Dieser Modus eignet sich in Verbindung mit Wartepunkten um Gerätschaften zum Feld zu bringen oder zum Beispiel auch auf andere Höfe.
+				Dans ce mode fonctionne la seule descente de sa route. Il n'attend pas au point de départ et n'a pas été déchargée à perdre des points.
+                                Ce mode est liée à des points d'attente pour les équipements à mettre sur le terrain ou à d'autres fermes. Le véicule suivra sa route sans rien faire.
 			
-			Typ: Düngen
+			Type: Fertiliser
 			
-				Im Düngemodus füllt der Abfahrhelfer am Startpunkt eine Spritze oder ein Güllefass und fährt dann seine Route ab. Man fährt mit dem Abfahrhelfer zum Feld, setzt einen Wartepunkt an der Stelle an der er mit dem Düngen beginnen soll, fährt das Feld ab und setzt einen Wartepunkt am Feldende.
-				Beim Abfahren klappt der Abfahrhelfer automatisch die Spritze/Güllefass aus und schaltet es an, fährt das Feld ab bis der Tank leer ist und fährt zurück zum auftanken. Nach dem Auftanken macht er an der Position weiter an der er aufgehört hat.
+				Dans le mode de fertilisation Abfahrhelfer remplis au point de départ, une seringue ou d'un réservoir à lisier, puis chasser sa route. Vous prenez le Abfahrhelfer sur le terrain, un point d'attente est au point où il devrait commencer par l'engrais, les feuilles de la matière et présente une période d'attente à la fin du champ.
+                                Pendant l'arrêt de la Abfahrhelfer automatiquement à partir du fumier liquide / seringue et se transforme elle laisse le champ jusqu'à ce que le réservoir est vide et remonte pour faire le plein. Après le ravitaillement, il rend à l'endroit où il l'avait laissée.
 				 
-			Typ: Feldarbeit (Ballenpressen, Schwadaufnahme)
+			Type: Le travail de terrain (presses, fauche)
 			
-				Der Feldarbeitsmodus funktioniert ähnlich wie der Düngemodus. Hierbei wird ein zuvor aufgezeichneter Kurs mit Feldgeschwindigkeit abgefahren.
-				Als Besonderheit kann man in diesem Modus zum Beispiel eine Ballenpresse anhängen. Die Rundballenpresse hält hierbei an wenn sie voll ist und wirft den Ballen aus.
-				Wenn man einen Ladewagen anhängt wird der Kurs abgefahren bis dieser voll ist, dann wird die letzte Position gespeichert und der Kurs abgefahren. Der Kurs sollte dann natürlich an einem Abladetrigger vorbei führen. Dort wird der Wagen entleert und dann fährt er zurück zum Feld und setzt seine Arbeit am letzten Punkt fort.
-				Der Arbeitsbereich des Modus Feldarbeit muss wie im Düngemodus durch zwei Wartepunkte markiert werden.
+				Le mode de travail sur le terrain est similaire au mode de fertilisation. Ici, un cours préenregistrés est laissée à la vitesse sur le terrain.
+                                Comme particularité, vous pouvez joindre dans ce mode, par exemple, une presse à balles. La presse à balles rondes a ce sur quand il est plein, et éjecte la balle.
+                                Si l'on adhère à un chariot de chargement, le cours est à gauche jusqu'à ce qu'il soit plein, puis la dernière position enregistrée et quitté le parcours. Le cours devrait donc tout naturellement conduire à une Abladetrigger plus. Là, la voiture vide, et puis il remonte sur le terrain et a continué son travail sur ce dernier point.
+                                La plage de fonctionnement du mode de travail sur le terrain doit être marqué comme dans le mode d'engrais par deux points d'attente.
 		
-		Wegpunkte löschen:
-			
-			Wenn ein Kurs eingefahren ist kannst du über diese Option den Kurs wieder zurücksetzen. Dabei wird der gespeicherte Kurs nicht aus der Konfigurationsdaten gelöscht sondern nur der aktuelle Abfahrer wieder zurückgesetzt.
-			
-		
-	HUD Kurs speichern
-			 
-		Im unteren Breich des Huds findet ihr eine Diskette. Wenn ihr einen Kurs eingefahren habt könnt ihr durch Klick auf die Diskette euren Kurs speichern.
-		Dabei wird im oberen Bereich eine Eingabemaske angezeigt. Hier könnt ihr mit der Tastatur einen Namen für euren Kurs vergeben und diesen mit ENTER (Eingabetaste) bestätigen.
-		
-		Hinweis: Aktuell ist die Steuerung des Spiels im Speichermodus noch aktiv. Das heißt wenn ihr zum Beispiel "e" drückt steigt ihr leider noch aus dem Fahrzeug aus.
-		In diesem Fall einfach wieder einsteigen und weiter tippen. Dieses Problem wird in einer späteren Version natürlich behoben.
-		
-	
-	HUD "Kurse verwalten":
-	
-		Auf diser Unterseite des HUD findet ihr eine Übersicht eurer gespeicherten Kurse. Ihr könnt durch Klick auf das Ordner Symbol einen Kurs laden und durch einen Klick auf das rote X einen Kurs komplett löschen.
-		ACHTUNG: seit version 1.2 müsst ihr wenn ihr einen neuen Kurs laden wollt erst die alten Wegpunkte zurücksetzen, sonst kombiniert ihr die beiden Kurse!
-		Mit den blauen Pfeilen rechts oben und rechts unten könnt ihr durch die gespeicherten Kurse blättern.
-		 
-	HUD "Einstellungen Combi Modus":
-	
-		Diese Einstellungen gelten (wie der Name es andeutet) nur für den kombinierten Modus und den Überlademodus. Hiermit könnt ihr euren Abfahrer an den jeweiligen Drescher anpassen.
-		Ihr könnt die Werte mit einem Klick auf das +/- Symbol daneben anpassen
-		
-		seitl. Abstand
-			
-			Dieser Wert definiert den seitlichen Abstand den ein Abfahrer zum Drescher oder Häcksler beim nebenher fahren einhalten soll.
-			
-		Start bei %:
-			
-			Dieser Wert legt fest ab welchem Füllstand des Dreschers der Abfahrer zu ihm fährt und ihn abtankt.
-			Bei Häckslern wird durch diesen Wert festgelegt ab wann der zweite Abfahrer in der Kette dem ersten hinterherfahren soll.
-			
-		Wenderadius:
-			
-			Dieser Wert ist nur beim Häckseln wichtig und legt fest wie weit der Abfahrer beim Wenden des Häckslers von ihm wegfahren soll ohne ihm im Weg zu stehen.
-			
-		Pipe Abstand:
-		
-			Dieser Wert legt fest wie weit der Abfahrer beim nebenher fahren vor oder zurück fahren soll. Hiermit lässt sich der Abfahrer auf verschiedene Anhänger umstellen.
-			
-	HUD "Drescher verwalten":
-	
-		Auch diese Einstellungen sind nur für den kombinierten Modus relevant. Hier könnt ihr einstellen ob der Abfahrer sich automatisch einen Drescher oder Häcksler suchen soll (Standard) oder er einen manuell zugewiesenen Drescher nutzen soll.
-		Wenn ihr einen Drescher manuell zuweist muss dieser auch nicht auf dem gleichen Feld stehen. Der Abfahrer fährt von seinem Startpunkt automatisch zum Drescher, egal wo dieser sich befindet.
-		
-		Interessant ist diese Einstellung vor allem bei großen oder hügeligen Feldern auf denen die automatische Zuweisung nicht immer funktioniert und auf Feldern ohne Grubbertextur z.B. Wiesen.
-		
-	HUD "Geschwidigkeiten":	
-		
-		Hier könnt ihr festlegen wie schnell euer Abfahrer fahren soll. Ich denke mal die Einstellungen sind selbst erklärend ;)
+	Waypoints:
+
+			Si un cours est exécuté, vous pouvez avoir cette option pour réinitialiser le cours nouveau. Il n'est évidemment pas supprimé à partir des données de configuration stockées, mais seulement remise à zéro du courant descendant à nouveau.
+
+
+	Bien sûr HUD enregistrer
+
+			Dans la zone inférieure de la palette, vous trouverez une disquette. Si vous avez été un cours, vous pouvez enregistrer votre disque en cliquant sur le parcours.
+			Ici, au-dessus d'un écran de saisie s'affiche. Ici, vous pouvez utiliser le clavier un prénom pour votre cours et appuyez sur pour confirmer ENTRER (enter).
+
+			Note: Actuellement, le contrôle du jeu en mode de mémoire est toujours actif. Cela signifie que si vous appuyez par exemple "e" augmente encore sa sortie du véhicule.
+			Dans ce cas, il suffit d'entrer de nouveau et continuer à taper. Ce problème est résolu dans une version ultérieure des cours.
+
+
+	HUD "Gérer les cours»:
+
+			Au fond des images HUD c'est une vue de vos cours sauvé. Vous pouvez en cliquant sur l'icône du dossier à une charge de cours et de supprimer en cliquant sur le X rouge dans un cours complètement.
+			ATTENTION: Depuis la version 1.2 vous avez besoin si vous voulez charger un nouveau cours jusqu'à ce que la vieille manière de réinitialisation, sinon, il combine les deux cours!
+			Avec les flèches bleues sur la droite ci-dessus et juste en dessous vous pouvez faire défiler les cours enregistrés.
+
+	HUD Paramètres mode Combi:
+
+			Ces paramètres s'appliquent (comme son nom l'indique) que pour le mode combiné et le mode de surcharge. Avec ceci, vous pouvez personnaliser votre sortie à l'respectifs Drescher.
+			Vous pouvez prendre les valeurs en cliquant sur le + / - icône à côté de s'adapter
+
+	latérale. Distance
+
+			Cette valeur définit la distance latérale de l'arrêt de la batteuse ou hachoirs à garder le lecteur sur le côté.
+
+	Commencez par%:
+
+			Cette valeur détermine à quel niveau de la batteuse, le descentes à lui et abtankt.
+			Déchiqueteuses, est déterminée par cette valeur lorsque le deuxième descente de suivre derrière le premier dans la chaîne.
+
+	Rayon de braquage:
+
+			Cette valeur est seulement important pour hacher et détermine dans quelle mesure de s'en aller dans les virages en descente de l'hélicoptère de lui sans lui être dans le chemin.
+
+			l'espacement des tuyaux:
+
+			Cette valeur détermine dans quelle mesure la descente d'entraînement à l'arrière ou d'aller à côté. Cela permet au skieur de se déplacer plusieurs remorques.
+
+	HUD Gérer Drescher "
+
+			Ces paramètres ne sont pertinentes que pour le mode combiné. Ici, vous pouvez définir si le skieur doit rechercher un automatique moissonneuses-batteuses, ou (par défaut) ou il utilisera une attribués manuellement Drescher.
+			Si c'est un Drescher attribuer manuellement ces également ne sont pas sur le même terrain. Les pistes de ski alpin automatiquement à partir de son point de départ à Drescher, peu importe où il réside.
+
+			Fait intéressant, ce paramètre est particulièrement volumineux ou les champs vallonnés où ne l'attribution automatique n'est pas toujours et dans les champs sans ces Grubbertextur Meadows.
+
+	HUD «rythme»,
+
+			Ici vous pouvez définir la vitesse de votre trajet est en descente. Je pense que les paramètres sont explicites;)
 
 
 IV. Credits
-	Lautschreier/Wolverin0815/Bastian82/Hummel	
-	
-	Die Entwicklung von courseplay war wohl etwas "ungewöhnlich"
-	
-	Die Grundversion hat "lautschreier" Anfang des Jahres begonnen. Diese konnte bereits Kurse einspeichern und abfahren.
-	Mitte Februar wurde ich (hummel/netjungle) auf dieses Projekt bei planet-ls.de aufmerksam und beschloss da etwas mitzuhelfen.
-	Aus "etwas mithelfen" wurde eine krankhafte Sucht und das Ergebnis heißt heute courseplay
-	
-	Ein besonderer Dank geht also selbstverstänlich an Lautschreier ohne den dieses Projekt wohl nie gestartet wäre. Vor allem dafür, dass er sein geistiges Eigentum zur Weiterentwicklung freigeben hat. (Open Source kann halt funktionieren)
-	Weiterhin hat mich "Wolverin0815" auch sehr aktiv bei der Entwicklung unterstützt und unter anderem die erste Version des HUds integriert. Auch hier ein großer Dank für sein Engagement und seine Ideen.
-	
-	Den Feldarbeitsmodus mit automatischem Pressen und Schwadaufnahme mit einem Ladewagen verdanken wir bastian82
-	
-	Zudem geht natürlich ein riesengroßes Dankeschön an alle die bei planet-ls.de fleißig getestet haben und ihre Ideen haben einfließen lassen. Die Enticklung hat mit soviel Feedback wirklich sehr viel Spaß gemacht.
-			
-	Auch beim Erfinder des Path Tractor aus LS 09 "micha381" an dem sich courseplay natürlich orientiert hat, muss ich mich bedanken.
 
-	Und last but not least noch ein großes Dankeschön an mein Weibchen die mich in den letzten Wochen diesen "24/7 Wahnsinn" hat ausleben lassen ;)
+Lautschreier/Wolverin0815/Bastian82/Hummel
+
+Le développement du jeu a été bien sûr sans doute un peu "insolite"
+
+La version de base a commencé ", selon un haut", plus tôt cette année. Ce fut déjà le stockage et les taux de sortie.
+À la mi-Février, j'ai été (Hummel / netjungle) sur ce projet à la planète ls.de attentivement et a décidé il ya quelque chose pour aider.
+Du "petit coup de pouce» a une dépendance pathologique et le résultat est le jeu bien sûr aujourd'hui
+
+Un merci spécial serait donc bien sûr en fonction de Schreier, sans lesquels ce projet sans doute jamais commencé. Surtout qu'il a de partager sa propriété intellectuelle pour le développement. (Open-source peut travailler le contenu)
+En outre, j'ai été "Wolverin0815" soutient très activement le développement et l'intégration, notamment la première version de la palette. Encore une fois, un grand merci pour son engagement et ses idées.
+
+Le mode de travail sur le terrain avec des presses automatiques et fauchée avec un wagon est due bastian82
+
+En outre, bien sûr, un grand merci à tous sur la planète-ont ls.de diligente testés et ont intégré leurs idées. Le développement entre vraiment Avec des réponses beaucoup.
+
+Même l'inventeur de la voie du tracteur LS 09 "micha381" sur le terrain de jeu est orienté a bien sûr, je dois me remercier.
+
+Et last but not least, un grand merci à ma femme à moi en ces dernières semaines a ce "24 / 7 folie" peut vivre ;)
+
+
+Traduction fait par Ptitminus73 (Agricole-Gaming)
+Des passages ont été traduit par google tracution ;)
