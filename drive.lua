@@ -142,6 +142,8 @@ function courseplay:drive(self, dt)
 					self.wait = false
 				end
 			end
+		else
+		   	self.global_info_text = courseplay:get_locale(self, "CPReachedWaitPoint")
   		end
 		
 		
@@ -173,8 +175,8 @@ function courseplay:drive(self, dt)
 			    			self.info_text = string.format(courseplay:get_locale(self, "CPloading") ,tipper_fill_level,tipper_capacity )
 			    			local sprayer = activeTool.sprayerFillTriggers[1]
 			    			activeTool:setIsSprayerFilling(true, sprayer.fillType, sprayer.isSiloTrigger, false)
-           				else
-           			    	allowedToDrive = true
+           			--	else
+           			  --  	allowedToDrive = true
 				  		end
 				  		if MapBGA ~= nil then
 					  		for i=1, table.getn(MapBGA.ModEvent.bunkers) do      --support Heady´s BGA
@@ -182,8 +184,8 @@ function courseplay:drive(self, dt)
 									self.info_text = "BGA LADEN"
 		                            allowedToDrive = false
 		                            MapBGA.ModEvent.bunkers[i].manure.fill = true 
-		                        else
-	           			    		allowedToDrive = true
+		                      --  else
+	           			    --		allowedToDrive = true
 								end;
 							end;
 						end
