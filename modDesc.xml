@@ -27,7 +27,7 @@
 		<text name="PointRecordStart">
 			<en>Start course recording</en>
 			<de>Kursaufzeichnung beginnen</de>
-			<fr>Début de l'enregistrement du parcours</fr>
+			<fr>Commencer l'enregistrement de la course</fr>
 		</text>
 		<text name="CourseDriveDirection">
 			<de>Fahrtrichtung</de>
@@ -47,22 +47,22 @@
 		<text name="PointRecordStop">
 			<en>Stop course recording</en>
 			<de>Kursaufzeichnung beenden</de>
-			<fr>Stopper l'enregistrement du parcours</fr>
+			<fr>Arreter l'enregistrement de la course</fr>
 		</text>
 		<text name="PointRecordInterrupt">
 			<en>Pause course recording</en>
 			<de>Kursaufzeichnung anhalten</de>
-			<fr>Pauser l'enregistrement du parcours</fr>
+			<fr>Interrompre  l'enregistrement de la course</fr>
 		</text>
 		<text name="PointRecordContinue">
 			<en>Continue course recording</en>
 			<de>Kursaufzeichnung fortsetzen</de>
-			<fr>Reprendre l'enregistrement du parcours</fr>
+			<fr>Reprendre l'enregistrement de la course</fr>
 		</text>
 		<text name="PointRecordDelete">
 			<en>Delete last waypoint</en>
 			<de>Letzten Wegpunkt löschen</de>
-			<fr>Supprimer le dernier point de passage</fr>
+			<fr>Supprimer le dernier point</fr>
 		</text>
 		<text name="CoursePlayPlayer">
 			<en>Driver</en>
@@ -82,6 +82,7 @@
 		<text name="CoursePlayStopEnd">
 			<en>Stop at last point or at next trigger</en>
 			<de>Warten am letzten Wegpunkt oder Trigger</de>
+			<fr>Arrêter au prochain point ou trigger</fr>
 		</text>
 		<text name="CoursePlayPlayerSwitchSide">
 			<en>Driver side</en>
@@ -106,7 +107,7 @@
 		<text name="CoursePlayPlayerSendHome">
 			<en>Send driver home</en>
 			<de>Abfahrer wegschicken</de>
-			<fr>Renvoyer le chauffeur à la maison</fr>
+			<fr>Renvoyer le chauffeur au début</fr>
 		</text>
 		<text name="CoursePlayCallPlayer">
 			<en>Request driver</en>
@@ -121,12 +122,12 @@
 		<text name="CoursePlayStart">
 			<en>Drive Course</en>
 			<de>Abfahrer einstellen</de>
-			<fr>Démarrer le parcours</fr>
+			<fr>Démarrer la course</fr>
 		</text>
 		<text name="CoursePlayStop">
 			<en>Drive stop</en>
 			<de>Abfahrer entlassen</de>
-			<fr>Arrêter le parcours</fr>
+			<fr>Arrêter la course</fr>
 		</text>
 		<text name="CourseMode1">
 			<en>Type: Drivinghelper (Load at start)</en>
@@ -136,10 +137,12 @@
 		<text name="CourseMode2">
 			<en>Type: Combi (empty combine and offload)</en>
 			<de>Typ: kombiniert (Drescher abtanken und abfahren)</de>
+			<fr>Type: Batteuse (La remorque suit la Batteuse)</fr>
 		</text>
 		<text name="CourseMode3">
 			<en>Type: Overloader (empty combine and offload to trailer)</en>
 			<de>Typ: Überladewagen (Drescher abtanken)</de>
+			<fr>Type: Vehicule de transfert (Dechargement de la Batteuse et chargement d'une remorque</fr>
 		</text>
 		<text name="CourseMode4">
 			<en>Type: fertilice</en>
@@ -149,19 +152,22 @@
 		<text name="CourseMode5">
 			<en>Type: Target (drive from start to finish)</en>
 			<de>Typ: Überführung (Route abfahren)</de>
-			<fr>Type: </fr>
+			<fr>Type: Route (voyage du début jusqu'a la fin de la course)</fr>
 		</text>
 		<text name="CourseMode6">
 			<en>Type: Fieldwork for balers, forage wagons, baleloaders</en>
 			<de>Typ: Feldarbeit, Ballen pressen, Heu und Ballen sammeln</de>
+			<fr>Type Travail des champs: Presse, chargeur à ballots, fourrage </fr>
 		</text>
 		<text name="CourseMode7">
 			<en>Type: Combine drives to trailer and unloads</en>
 			<de>Typ: Drescher fährt selbst abtanken</de>
+			<fr>Type: Batteuse va à la remorque pour vider</fr>
 		</text>
 		<text name="CourseMode8">
 			<en>Type: Manure transporter</en>
 			<de>Typ: Güllezubringer</de>
+			<fr>Type: Transport de fumier</fr>
 		</text>
 		<text name="CourseWaitpointSet">
 			<en>Set waitpoint</en>
@@ -185,26 +191,27 @@
 		<text name="CourseSave">
 			<en>Save course</en>
 			<de>Kurs speichern</de>
-			<fr>Sauvegarder le parcours</fr>
+			<fr>Sauvegarder la course</fr>
 		</text>
 		<text name="CourseLoad">
 			<en>Load course</en>
 			<de>Kurs laden</de>
-			<fr>Charger un parcours</fr>
+			<fr>Charger une course</fr>
 		</text>
 		<text name="CourseDel">
 			<en>Delete course</en>
 			<de>Kurs aus Datei löschen</de>
-			<fr>Supprimer le parcours</fr>
+			<fr>Supprimer la course</fr>
 		</text>
 		<text name="CourseReset">
 			<en>Reset course</en>
 			<de>Wegpunkte löschen</de>
+			<fr>Réinitialiser la course</fr>
 		</text>
 		<text name="CourseGenerate">
 			<en>Generate course</en>
 			<de>Kurs generieren</de>
-			<fr>Générer le parcours</fr>
+			<fr>Générer la course</fr>
 		</text>
 		<text name="HudControl">
 			<en>Courseplay HUD</en>
@@ -224,10 +231,12 @@
 		<text name="NoWaitforfill">
 			<en>Drive now</en>
 			<de>Sofort abfahren</de>
+			<fr>Demarrer maintenant</fr>
 		</text>
 		<text name="NoWaitforfillAt">
 			<en>Drive on at %</en>
 			<de>Abfahren bei %</de>
+			<fr>Partir à %</fr>
 		</text>
 		<text name="AHInput1">
 			<en>CP Input 1</en>
@@ -253,6 +262,7 @@
 		<text name="CPDistance">
 			<en>distance</en>
 			<de>Entfernung</de>
+			<fr>distance</fr>
 		</text>
 		<text name="CPWaitTime">
 			<en>Waiting time</en>
@@ -267,7 +277,7 @@
 		<text name="CPCourseName">
 			<en>Course name:</en>
 			<de>Name des Kurses:</de>
-			<fr>Nom du parcours</fr>
+			<fr>Nom du parcours:</fr>
 		</text>
 		<text name="CPReachedOverloadPoint">
 			<en>has reached overload point.</en>
@@ -277,11 +287,12 @@
 		<text name="CPReachedWaitPoint">
 			<en>has reached waiting point.</en>
 			<de>hat Wartepunkt erreicht.</de>
-			<fr>a attaint le point d'attente</fr>
+			<fr>a atteint le point d'attente</fr>
 		</text>
 		<text name="CPReachedEndPoint">
 			<en>has reached end point.</en>
 			<de>hat den Tigger bzw. das Ende der Route erreicht.</de>
+			<fr>a atteint la fin de la course</fr>
 		</text>
 		<text name="CPWorkEnd">
 			<en>has finished work.</en>
@@ -296,30 +307,37 @@
 		<text name="CPUnloadBale">
 			<en>unloading bales.</en>
 			<de>Ballen werden entladen.</de>
+			<fr>decharge les ballots</fr>
 		</text>
 		<text name="CPInTraffic">
 			<en>is in traffic.</en>
 			<de>steckt im Verkehr fest</de>
+			<fr>est coincé</fr>
 		</text>
 		<text name="CPloading">
 			<en>Loading: %d of %d</en>
 			<de>Wird Beladen: %d von %d</de>
+			<fr>Chargement: %d sur %d</fr>
 		</text>
 		<text name="CPTriggerReached">
 			<en>tip trigger reached</en>
 			<de>Abladestelle erreicht</de>
+			<fr>Le trigger est atteint</fr>
 		</text>
 		<text name="CPUnloading">
 			<en>Unloading: %d of %d</en>
 			<de>Wird entladen: %d von %d</de>
+			<fr>Déchargement: %d sur %d</fr>
 		</text>
 		<text name="CPWPs">
 			<en>Show waypoints</en>
 			<de>Wegpunkte anzeigen</de>
+			<fr>Montrer les points</fr>
 		</text>
 		<text name="CPastarOn">
 			<en>on</en>
 			<de>eingeschaltet</de>
+			<fr>activé</fr>
 		</text>
 		<text name="CPaStar">
 			<en>Pathfinding</en>
@@ -328,6 +346,7 @@
 		<text name="CPastarOff">
 			<en>off</en>
 			<de>ausgeschaltet</de>
+			<fr>désactivé</fr>
 		</text>
 		<text name="CPCombineOffset">
 			<en>Side offset:</en>
@@ -336,34 +355,42 @@
 		<text name="CPRequiredFillLevel">
 			<en>Start at %:</en>
 			<de>Start bei %:</de>
+			<fr>Demarrer à %:</fr>
 		</text>
 		<text name="CPTurnRadius">
 			<en>Turning cirlce:</en>
 			<de>Wendekreis:</de>
+			<fr>Rayon de braquage:</fr>
 		</text>
 		<text name="CPPipeOffset">
 			<en>pipe offset:</en>
 			<de>Pipe Abstand:</de>
+			
 		</text>
 		<text name="CPMaxHireables">
 			<en>maximum AI helpers:</en>
 			<de>max. Anz. AI Helfer:</de>
+			<fr>Aide AI au max. :</fr>
 		</text>
 		<text name="CPNone">
 			<en>none</en>
 			<de>keiner</de>
+			<fr>Aucun</fr>
 		</text>
 		<text name="CPSelectCombine">
 			<en>Choose combine:</en>
 			<de>Drescher wählen:</de>
+			<fr>Choix de la Batteuse:</fr>
 		</text>
 		<text name="CPCombineSearch">
 			<en>Find combine:</en>
 			<de>Dreschersuche:</de>
+			<fr>Recherche de la Batteuse:</fr>
 		</text>
 		<text name="CPActual">
 			<en>Current:</en>
 			<de>Aktuell:</de>
+			<fr>Actuel:</fr>
 		</text>
 		<text name="CPFindAuto">
 			<en>automatic search</en>
@@ -378,18 +405,22 @@
 		<text name="CPTurnSpeed">
 			<en>Turn speed:</en>
 			<de>Wendemanöver:</de>
+			<fr>Vitesse pour tourner:</fr>
 		</text>
 		<text name="CPFieldSpeed">
 			<en>Field speed:</en>
 			<de>Auf dem Feld:</de>
+			<fr>Vitesse dans les champs:</fr>
 		</text>
 		<text name="CPMaxSpeed">
 			<en>Street speed:</en>
 			<de>Auf Straße:</de>
+			<fr>Vitesse de route:</fr>
 		</text>
 		<text name="CPUnloadSpeed">
 			<en>Unload (BGA):</en>
 			<de>Abladen (BGA):</de>
+			<fr>Déchargement (BGA):</fr>
 		</text>
 		<text name="CPuseSpeed">
 			<en>Speed:</en>
@@ -399,10 +430,12 @@
 		<text name="CPuseSpeed1">
 			<en>from recording</en>
 			<de>wie beim einfahren</de>
+			<fr>la mêmme que l'enregistrement</fr>
 		</text>
 		<text name="CPuseSpeed2">
 			<en>maximum speed</en>
 			<de>maximale Geschwindigkeit</de>
+			<fr>vitesse maximal</fr>
 		</text>
 		<text name="CPspeedUnit">
 			<en>mph</en>
@@ -412,40 +445,47 @@
 		<text name="CPautomaticSpeed">
 			<en>automatic (from course)</en>
 			<de>automatisch (vom Kurs)</de>
+			<fr></fr>
 		</text>
 		<text name="CPCourse">
 			<en>Course:</en>
 			<de>Kurs:</de>
-			<fr>Parcours:</fr>
+			<fr>Course:</fr>
 		</text>
 		<text name="CPNoCourseLoaded">
 			<en>course: no course loaded</en>
 			<de>Kurs: kein Kurs geladen</de>
+			<fr>course: pas de course chargée</fr>
 		</text>
 		<text name="CPWaypoint">
 			<en>waypoint:</en>
 			<de>Wegpunkt:</de>
+			<fr>points:</fr>
 		</text>
 		<text name="CPNoWaypoint">
 			<en>no waypoints yet</en>
 			<de>Noch keine Wegpunkte</de>
+			<fr>pas de points</fr>
 		</text>
 		<text name="WaypointMode1">
 			<en>only when recording</en>
 			<de>nur bei Aufnahme</de>
+			<fr>seulement lors de l'enregistrement</fr>
 		</text>
 		<text name="WaypointMode2">
 			<en>own waypoints</en>
 			<de>eigene Wegpunkte</de>
+			<fr>mes propres points</fr>
 		</text>
 		<text name="WaypointMode3">
 			<en>without crosspoints</en>
 			<de>ohne Kreuzungspunkte</de>
+			<fr>sans les points de croisement</fr>
 		</text>
 		<text name="WaypointMode4">
 			<en>show all</en>
 			<de>alle</de>
-			<fr>tous</fr>
+			<fr>montrer les tous</fr>
 		</text>
 		<text name="WaypointMode5">
 			<en>none</en>
@@ -475,70 +515,87 @@
 		<text name="CPSteering">
 			<en>Courseplay control</en>
 			<de>Abfahrhelfer Steuerung</de>
+			<fr>Courseplay control</fr>
 		</text>
 		<text name="CPCombineMangament">
 			<en>Driver managment</en>
 			<de>Abfahrer steuern</de>
+			<fr>Gestion de la conduite</fr>
 		</text>
 		<text name="CPManageCourses">
 			<en>Manage courses</en>
 			<de>Kurse verwalten</de>
+			<fr>Gestion des courses</fr>
 		</text>
 		<text name="CPNoWorkArea">
 			<en>no work area at this course</en>
 			<de>Kein Arbeitsbereich in diesem Kurs</de>
+			<fr>Pas de zone de trvail</fr>
 		</text>
 		<text name="CPCourseAdded">
 			<en>combined courses</en>
 			<de>kombinierte Kurse</de>
+			<fr>Course combiné</fr>
 		</text>
 		<text name="CPCombiSettings">
 			<en>Settings combi mode</en>
 			<de>Einstellungen Combi Modus</de>
+			<fr>Option du mode batteuse</fr>
 		</text>
 		<text name="CPManageCombines">
 			<en>Manage combines</en>
 			<de>Drescher verwalten</de>
+			<fr>Gestion des batteuses</fr>
 		</text>
 		<text name="CPSpeedLimit">
 			<en>SPEED LIMIT</en>
 			<de>Geschwindigkeiten</de>
+			<fr>Vitesse limite</fr>
 		</text>
 		<text name="CPHud7">
 			<en>DRIVE SETTINGS</en>
 			<de>Fahr- Arbeitseinstellungen</de>
+			<fr>Paramètres de conduite</fr>
 		</text>
 		<text name="CPCombineTurning">
 			<en>Combine is turning</en>
 			<de>Drescher wendet</de>
+			<fr>La batteuse tourne</fr>
 		</text>
 		<text name="CPDriveBehinCombine">
 			<en>Drive behind combine</en>
 			<de>Fahre hinter Drescher</de>
+			<fr>Conduit derriere la batteuse</fr>
 		</text>
 		<text name="CPDriveNextCombine">
 			<en>Drive next to combine</en>
 			<de>Fahre neben Drescher</de>
+			<fr>Conduire à coté de la batteuse</fr>
 		</text>
 		<text name="CPDriveToCombine">
 			<en>drive to combine</en>
 			<de>Fahre zu Drescher</de>
+			<fr>Conduire vers la batteuse</fr>
 		</text>
 		<text name="CPCombineWantsMeToStop">
 			<en>Combine is telling me to stop</en>
 			<de>Drescher sagt ich soll anhalten</de>
+			<fr>La batteuse me dit d'arreter</fr>
 		</text>
 		<text name="CPTurningTo">
 			<en>Turning to direction %d %d</en>
 			<de>wende in Richtung koordinaten %d %d</de>
+			<fr>Tourne en direction de %d %d</fr>
 		</text>
 		<text name="CPDriveToWP">
 			<en>Drive to waypoint %d %d</en>
 			<de>fahre zu Wegpunkt %d %d</de>
+			<fr>Conduit vers le points %d %d</fr>
 		</text>
 		<text name="CPwaitFillLevel">
 			<en>Waiting until fill level is reached</en>
 			<de>Warte bis Füllstand erreicht ist</de>
+			<fr>Attend que le niveau soit atteint</fr>
 		</text>
 		<text name="CPnoCombineInReach">
 			<en>No combine in reach</en>
@@ -547,10 +604,12 @@
 		<text name="CPWaitUntilCombineTurned">
 			<en>Waiting until combine has turned</en>
 			<de>Warte bis Drescher gewendet hat</de>
+			<fr>Attend que la batteuse ait finis de tourner</fr>
 		</text>
 		<text name="CPWaitForWaypoint">
 			<en>Waiting for new waypoint</en>
 			<de>Warte bis ich neuen Wegpunkt habe</de>
+			<fr>Attend pour le nouveau point</fr>
 		</text>
 		<text name="CPFollowTractor">
 			<en>Following tractor</en>
@@ -560,22 +619,27 @@
 		<text name="CPFuelWarning">
 			<en>should be refueled soon</en>
 			<de>sollte aufgetankt werden</de>
+			<fr>doit bientôt faire le plein</fr>
 		</text>
 		<text name="CPNoFuelStop">
 			<en>must be refueled</en>
 			<de>muss aufgetankt werden</de>
+			<fr>doit faire le plein</fr>
 		</text>
 		<text name="CPRefueling">
 			<en>is being refueled</en>
 			<de>wird aufgetankt</de>
+			<fr>est en train d'être ravitailler</fr>
 		</text>
 		<text name="CPWrongTrailer">
 			<en>wrong trailer for this mode</en>
 			<de>falscher Trailer für diesen Modus</de>
+			<fr>pas la bonne remorque pour ce mode</fr>
 		</text>
 		<text name="CPSettings">
 			<en>Settings</en>
 			<de>Allgemeine Einstellungen</de>
+			<fr>Paramètres</fr>
 		</text>
 		<text name="CPWpOffsetX">
 			<en>Waypoint-X Offset</en>
@@ -588,10 +652,12 @@
 		<text name="CPWorkingWidht">
 			<en>working width</en>
 			<de>Arbeitsbreite</de>
+			<fr>travail avec</fr>
 		</text>
 		<text name="CPWaterDrive">
 			<en>would like to go swimming</en>
 			<de>möchte baden gehen</de>
+			<fr> a voulut prendre un bain</fr>
 		</text>
 		<text name="WaitPoints">
 			<en>wait points:</en>
