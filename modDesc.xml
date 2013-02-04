@@ -351,6 +351,7 @@
 		<text name="CPCombineOffset">
 			<en>Side offset:</en>
 			<de>seitl. Abstand:</de>
+			<fr>Distance latéral:</fr>
 		</text>
 		<text name="CPRequiredFillLevel">
 			<en>Start at %:</en>
@@ -365,6 +366,7 @@
 		<text name="CPPipeOffset">
 			<en>pipe offset:</en>
 			<de>Pipe Abstand:</de>
+			<fr>Distance de décalage:</fr>
 			
 		</text>
 		<text name="CPMaxHireables">
@@ -672,14 +674,17 @@
 		<text name="CPopenHud">
 			<en>open Courseplay:</en>
 			<de>Courseplay öffnen:</de>
+			<fr>Ouvertir de Courseplay:</fr>
 		</text>
 		<text name="CPopenMouse">
 			<en>right mouse button</en>
 			<de>rechte Maustaste</de>
+			<fr>clic droit de la souris</fr>
 		</text>
 		<text name="CPDebugLevel">
 			<en>Debug level</en>
 			<de>Debug-Level</de>
+			<fr>Niveau de débogage</fr>
 		</text>
 		<text name="CPDebugLevel0">
 			<en>0: nothing</en>
@@ -694,6 +699,7 @@
 		<text name="CPDebugLevel2">
 			<en>2: semi-important</en>
 			<de>2: semi-wichtig</de>
+			<fr>3: semi-detaillé</fr>
 		</text>
 		<text name="CPDebugLevel3">
 			<en>3: important</en>
@@ -718,10 +724,12 @@
 		<text name="CPOptions">
 			<en>Courseplay options</en>
 			<de>Courseplay-Optionen</de>
+			<fr>Options du Courseplay</fr>
 		</text>
 		<text name="CP_Hud">
 			<en>Courseplay HUD</en>
 			<de>Courseplay HUD</de>
+			<fr>Courseplay HUD</fr>
 		</text>
 		<text name="CP_Modifier_1">
 			<en>Courseplay key modifier 1</en>
