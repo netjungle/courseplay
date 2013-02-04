@@ -367,7 +367,6 @@
 			<en>pipe offset:</en>
 			<de>Pipe Abstand:</de>
 			<fr>Distance de décalage:</fr>
-			
 		</text>
 		<text name="CPMaxHireables">
 			<en>maximum AI helpers:</en>
@@ -447,7 +446,7 @@
 		<text name="CPautomaticSpeed">
 			<en>automatic (from course)</en>
 			<de>automatisch (vom Kurs)</de>
-			<fr></fr>
+			<fr>automatique</fr>
 		</text>
 		<text name="CPCourse">
 			<en>Course:</en>
