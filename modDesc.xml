@@ -142,7 +142,7 @@
 		<text name="CourseMode3">
 			<en>Type: Overloader (empty combine and offload to trailer)</en>
 			<de>Typ: Überladewagen (Drescher abtanken)</de>
-			<fr>Type: Vehicule de transfert (Dechargement de la Batteuse et chargement d'une remorque</fr>
+			<fr>Type: Vehicule de transfert (Dechargement de la Batteuse)</fr>
 		</text>
 		<text name="CourseMode4">
 			<en>Type: fertilice</en>
@@ -157,7 +157,7 @@
 		<text name="CourseMode6">
 			<en>Type: Fieldwork for balers, forage wagons, baleloaders</en>
 			<de>Typ: Feldarbeit, Ballen pressen, Heu und Ballen sammeln</de>
-			<fr>Type Travail des champs: Presse, chargeur à ballots, fourrage </fr>
+			<fr>Type Travail des champs: Presse, chargeur à ballots, fourrage</fr>
 		</text>
 		<text name="CourseMode7">
 			<en>Type: Combine drives to trailer and unloads</en>
@@ -182,6 +182,7 @@
 		<text name="CourseFieldPointSet">
 			<en>Set fieldpoint</en>
 			<de>Feldgrenze festlegen</de>
+			<fr>Placer un point de champs</fr>
 		</text>
 		<text name="CourseWaitpointStart">
 			<en>start</en>
@@ -241,18 +242,22 @@
 		<text name="AHInput1">
 			<en>CP Input 1</en>
 			<de>AH Taste 1</de>
+			<fr>CP entré 1</fr>
 		</text>
 		<text name="AHInput2">
 			<en>CP Input 2</en>
 			<de>AH Taste 2</de>
+			<fr>CP entré 2</fr>
 		</text>
 		<text name="AHInput3">
 			<en>CP Input 3</en>
 			<de>AH Taste 3</de>
+			<fr>CP entré 3</fr>
 		</text>
 		<text name="AHInput4">
 			<en>CP Input 4</en>
 			<de>AH Taste 4</de>
+			<fr>CP entré 4</fr>
 		</text>
 		<text name="UNKNOWN">
 			<en>unknown</en>
@@ -342,6 +347,7 @@
 		<text name="CPaStar">
 			<en>Pathfinding</en>
 			<de>Fruchtumfahrung</de>
+			<fr>Evite les cultures</fr>
 		</text>
 		<text name="CPastarOff">
 			<en>off</en>
@@ -386,7 +392,7 @@
 		<text name="CPCombineSearch">
 			<en>Find combine:</en>
 			<de>Dreschersuche:</de>
-			<fr>Recherche de la Batteuse:</fr>
+			<fr>Type de recherche:</fr>
 		</text>
 		<text name="CPActual">
 			<en>Current:</en>
@@ -406,12 +412,12 @@
 		<text name="CPTurnSpeed">
 			<en>Turn speed:</en>
 			<de>Wendemanöver:</de>
-			<fr>Vitesse pour tourner:</fr>
+			<fr>Vitesse de virage:</fr>
 		</text>
 		<text name="CPFieldSpeed">
 			<en>Field speed:</en>
 			<de>Auf dem Feld:</de>
-			<fr>Vitesse dans les champs:</fr>
+			<fr>Vitesse de champs:</fr>
 		</text>
 		<text name="CPMaxSpeed">
 			<en>Street speed:</en>
@@ -431,7 +437,7 @@
 		<text name="CPuseSpeed1">
 			<en>from recording</en>
 			<de>wie beim einfahren</de>
-			<fr>la même que l'enregistrement</fr>
+			<fr>même que l'entrée</fr>
 		</text>
 		<text name="CPuseSpeed2">
 			<en>maximum speed</en>
@@ -461,7 +467,7 @@
 		<text name="CPWaypoint">
 			<en>waypoint:</en>
 			<de>Wegpunkt:</de>
-			<fr>points:</fr>
+			<fr>Points:</fr>
 		</text>
 		<text name="CPNoWaypoint">
 			<en>no waypoints yet</en>
@@ -471,7 +477,7 @@
 		<text name="WaypointMode1">
 			<en>only when recording</en>
 			<de>nur bei Aufnahme</de>
-			<fr>seulement lors de l'enregistrement</fr>
+			<fr>lors de l'enregistrement</fr>
 		</text>
 		<text name="WaypointMode2">
 			<en>own waypoints</en>
@@ -481,7 +487,7 @@
 		<text name="WaypointMode3">
 			<en>without crosspoints</en>
 			<de>ohne Kreuzungspunkte</de>
-			<fr>sans les points de croisement</fr>
+			<fr>sans les croisements</fr>
 		</text>
 		<text name="WaypointMode4">
 			<en>show all</en>
@@ -601,6 +607,7 @@
 		<text name="CPnoCombineInReach">
 			<en>No combine in reach</en>
 			<de>Kein Drescher in Reichweite</de>
+			<fr>Pas de Batteuse en vue</fr>
 		</text>
 		<text name="CPWaitUntilCombineTurned">
 			<en>Waiting until combine has turned</en>
@@ -645,10 +652,12 @@
 		<text name="CPWpOffsetX">
 			<en>Waypoint-X Offset</en>
 			<de>versetzt fahren</de>
+			<fr>décalage latéral</fr>
 		</text>
 		<text name="CPWpOffsetZ">
 			<en>Waypoint-Z Offset</en>
 			<de>Versetzt fahren</de>
+			<fr>décalage horizontal</fr>
 		</text>
 		<text name="CPWorkingWidht">
 			<en>working width</en>
@@ -733,10 +742,12 @@
 		<text name="CP_Modifier_1">
 			<en>Courseplay key modifier 1</en>
 			<de>Courseplay Extrataste 1</de>
+			<fr>Courseplay touche 1</fr>
 		</text>
 		<text name="CP_Modifier_2">
 			<en>Courseplay key modifier 2</en>
 			<de>Courseplay Extrataste 2</de>
+			<fr>Courseplay touche 2</fr>
 		</text>
 	</l10n>
 
