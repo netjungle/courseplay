@@ -282,7 +282,7 @@
 		<text name="CPCourseName">
 			<en>Course name:</en>
 			<de>Name des Kurses:</de>
-			<fr>Nom du parcours:</fr>
+			<fr>Nom de la course:</fr>
 		</text>
 		<text name="CPReachedOverloadPoint">
 			<en>has reached overload point.</en>
@@ -357,7 +357,7 @@
 		<text name="CPCombineOffset">
 			<en>Side offset:</en>
 			<de>seitl. Abstand:</de>
-			<fr>Distance coté:</fr>
+			<fr>Distance latéral:</fr>
 		</text>
 		<text name="CPRequiredFillLevel">
 			<en>Start at %:</en>
@@ -367,7 +367,7 @@
 		<text name="CPTurnRadius">
 			<en>Turning cirlce:</en>
 			<de>Wendekreis:</de>
-			<fr>Rayon de virage:</fr>
+			<fr>Rayon de braquage:</fr>
 		</text>
 		<text name="CPPipeOffset">
 			<en>pipe offset:</en>
@@ -577,17 +577,17 @@
 		<text name="CPDriveNextCombine">
 			<en>Drive next to combine</en>
 			<de>Fahre neben Drescher</de>
-			<fr>Conduire à coté de la batteuse</fr>
+			<fr>Conduit à coté de la batteuse</fr>
 		</text>
 		<text name="CPDriveToCombine">
 			<en>drive to combine</en>
 			<de>Fahre zu Drescher</de>
-			<fr>Conduire vers la batteuse</fr>
+			<fr>Conduit vers la batteuse</fr>
 		</text>
 		<text name="CPCombineWantsMeToStop">
 			<en>Combine is telling me to stop</en>
 			<de>Drescher sagt ich soll anhalten</de>
-			<fr>La batteuse me dit d'arreter</fr>
+			<fr>La batteuse me demande de m'arreter</fr>
 		</text>
 		<text name="CPTurningTo">
 			<en>Turning to direction %d %d</en>
@@ -657,7 +657,7 @@
 		<text name="CPWpOffsetZ">
 			<en>Waypoint-Z Offset</en>
 			<de>Versetzt fahren</de>
-			<fr>décalage horizontal</fr>
+			<fr>décalage Av/Ar</fr>
 		</text>
 		<text name="CPWorkingWidht">
 			<en>working width</en>
