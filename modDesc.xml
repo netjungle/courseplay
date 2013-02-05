@@ -37,12 +37,12 @@
 		<text name="CourseDriveDirectionFor">
 			<de>vorwärts</de>
 			<en>forwards</en>
-			<fr>Avant</fr>
+			<fr>avant</fr>
 		</text>
 		<text name="CourseDriveDirectionBac">
 			<de>rückwärts</de>
 			<en>reverse</en>
-			<fr>Arriére</fr>
+			<fr>arriére</fr>
 		</text>
 		<text name="PointRecordStop">
 			<en>Stop course recording</en>
@@ -52,7 +52,7 @@
 		<text name="PointRecordInterrupt">
 			<en>Pause course recording</en>
 			<de>Kursaufzeichnung anhalten</de>
-			<fr>Interrompre  l'enregistrement de la course</fr>
+			<fr>Interrompre l'enregistrement de la course</fr>
 		</text>
 		<text name="PointRecordContinue">
 			<en>Continue course recording</en>
@@ -92,7 +92,7 @@
 		<text name="CoursePlayPlayerSideNone">
 			<en>automatic</en>
 			<de>automatisch</de>
-			<fr>Automatique</fr>
+			<fr>automatique</fr>
 		</text>
 		<text name="CoursePlayPlayerSideLeft">
 			<en>left</en>
@@ -157,7 +157,7 @@
 		<text name="CourseMode6">
 			<en>Type: Fieldwork for balers, forage wagons, baleloaders</en>
 			<de>Typ: Feldarbeit, Ballen pressen, Heu und Ballen sammeln</de>
-			<fr>Type Travail des champs: Presse, chargeur à ballots...</fr>
+			<fr>Type: Travail des champs: Presse, chargeur à ballots...</fr>
 		</text>
 		<text name="CourseMode7">
 			<en>Type: Combine drives to trailer and unloads</en>
@@ -232,7 +232,7 @@
 		<text name="NoWaitforfill">
 			<en>Drive now</en>
 			<de>Sofort abfahren</de>
-			<fr>Demarrer maintenant</fr>
+			<fr>Démarrer maintenant</fr>
 		</text>
 		<text name="NoWaitforfillAt">
 			<en>Drive on at %</en>
@@ -242,22 +242,22 @@
 		<text name="AHInput1">
 			<en>CP Input 1</en>
 			<de>AH Taste 1</de>
-			<fr>CP entré 1</fr>
+			<fr>CP entrée 1</fr>
 		</text>
 		<text name="AHInput2">
 			<en>CP Input 2</en>
 			<de>AH Taste 2</de>
-			<fr>CP entré 2</fr>
+			<fr>CP entrée 2</fr>
 		</text>
 		<text name="AHInput3">
 			<en>CP Input 3</en>
 			<de>AH Taste 3</de>
-			<fr>CP entré 3</fr>
+			<fr>CP entrée 3</fr>
 		</text>
 		<text name="AHInput4">
 			<en>CP Input 4</en>
 			<de>AH Taste 4</de>
-			<fr>CP entré 4</fr>
+			<fr>CP entrée 4</fr>
 		</text>
 		<text name="UNKNOWN">
 			<en>unknown</en>
@@ -287,37 +287,37 @@
 		<text name="CPReachedOverloadPoint">
 			<en>has reached overload point.</en>
 			<de>hat Überladepunkt erreicht.</de>
-			<fr>a atteint le point de déchargement</fr>
+			<fr>a atteint le point de déchargement.</fr>
 		</text>
 		<text name="CPReachedWaitPoint">
 			<en>has reached waiting point.</en>
 			<de>hat Wartepunkt erreicht.</de>
-			<fr>a atteint le point d'attente</fr>
+			<fr>a atteint le point d'attente.</fr>
 		</text>
 		<text name="CPReachedEndPoint">
 			<en>has reached end point.</en>
 			<de>hat den Tigger bzw. das Ende der Route erreicht.</de>
-			<fr>a atteint la fin de la course</fr>
+			<fr>a atteint la fin de la course.</fr>
 		</text>
 		<text name="CPWorkEnd">
 			<en>has finished work.</en>
 			<de>hat die Aufgabe erledigt.</de>
-			<fr>a terminé le travail</fr>
+			<fr>a terminé le travail.</fr>
 		</text>
 		<text name="CPReadyUnloadBale">
 			<en>ready for unloading bales.</en>
 			<de>bereit zum Ballen entladen.</de>
-			<fr>pret à décharger les ballots</fr>
+			<fr>pret à décharger les ballots.</fr>
 		</text>
 		<text name="CPUnloadBale">
 			<en>unloading bales.</en>
 			<de>Ballen werden entladen.</de>
-			<fr>decharge les ballots</fr>
+			<fr>decharge les ballots.</fr>
 		</text>
 		<text name="CPInTraffic">
 			<en>is in traffic.</en>
 			<de>steckt im Verkehr fest</de>
-			<fr>est coincé</fr>
+			<fr>est coincé.</fr>
 		</text>
 		<text name="CPloading">
 			<en>Loading: %d of %d</en>
@@ -357,7 +357,7 @@
 		<text name="CPCombineOffset">
 			<en>Side offset:</en>
 			<de>seitl. Abstand:</de>
-			<fr>Distance latéral:</fr>
+			<fr>Distance coté:</fr>
 		</text>
 		<text name="CPRequiredFillLevel">
 			<en>Start at %:</en>
@@ -367,12 +367,12 @@
 		<text name="CPTurnRadius">
 			<en>Turning cirlce:</en>
 			<de>Wendekreis:</de>
-			<fr>Rayon de braquage:</fr>
+			<fr>Rayon de virage:</fr>
 		</text>
 		<text name="CPPipeOffset">
 			<en>pipe offset:</en>
 			<de>Pipe Abstand:</de>
-			<fr>Distance de décalage:</fr>
+			<fr>Distance Av/Ar:</fr>
 		</text>
 		<text name="CPMaxHireables">
 			<en>maximum AI helpers:</en>
@@ -397,7 +397,7 @@
 		<text name="CPActual">
 			<en>Current:</en>
 			<de>Aktuell:</de>
-			<fr>Actuel:</fr>
+			<fr>Actuelle:</fr>
 		</text>
 		<text name="CPFindAuto">
 			<en>automatic search</en>
@@ -682,7 +682,7 @@
 		<text name="CPopenHud">
 			<en>open Courseplay:</en>
 			<de>Courseplay öffnen:</de>
-			<fr>Ouvertir de Courseplay:</fr>
+			<fr>Ouverture de Courseplay:</fr>
 		</text>
 		<text name="CPopenMouse">
 			<en>right mouse button</en>
