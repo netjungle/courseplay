@@ -142,7 +142,7 @@
 		<text name="CourseMode3">
 			<en>Type: Overloader (empty combine and offload to trailer)</en>
 			<de>Typ: Überladewagen (Drescher abtanken)</de>
-			<fr>Type: Vehicule de transfert (Dechargement de la Batteuse)</fr>
+			<fr>Type: Transbordeur (Dechargement de la Batteuse)</fr>
 		</text>
 		<text name="CourseMode4">
 			<en>Type: fertilice</en>
@@ -157,7 +157,7 @@
 		<text name="CourseMode6">
 			<en>Type: Fieldwork for balers, forage wagons, baleloaders</en>
 			<de>Typ: Feldarbeit, Ballen pressen, Heu und Ballen sammeln</de>
-			<fr>Type Travail des champs: Presse, chargeur à ballots, fourrage</fr>
+			<fr>Type Travail des champs: Presse, chargeur à ballots...</fr>
 		</text>
 		<text name="CourseMode7">
 			<en>Type: Combine drives to trailer and unloads</en>
@@ -387,7 +387,7 @@
 		<text name="CPSelectCombine">
 			<en>Choose combine:</en>
 			<de>Drescher wählen:</de>
-			<fr>Choix de la Batteuse:</fr>
+			<fr>Choix de Batteuse:</fr>
 		</text>
 		<text name="CPCombineSearch">
 			<en>Find combine:</en>
@@ -427,7 +427,7 @@
 		<text name="CPUnloadSpeed">
 			<en>Unload (BGA):</en>
 			<de>Abladen (BGA):</de>
-			<fr>Déchargement (BGA):</fr>
+			<fr>Décharger (BGA):</fr>
 		</text>
 		<text name="CPuseSpeed">
 			<en>Speed:</en>
@@ -437,7 +437,7 @@
 		<text name="CPuseSpeed1">
 			<en>from recording</en>
 			<de>wie beim einfahren</de>
-			<fr>même que l'entrée</fr>
+			<fr>même que l'enregistrement</fr>
 		</text>
 		<text name="CPuseSpeed2">
 			<en>maximum speed</en>
@@ -662,7 +662,7 @@
 		<text name="CPWorkingWidht">
 			<en>working width</en>
 			<de>Arbeitsbreite</de>
-			<fr>travail avec</fr>
+			<fr>largeur de travail</fr>
 		</text>
 		<text name="CPWaterDrive">
 			<en>would like to go swimming</en>
