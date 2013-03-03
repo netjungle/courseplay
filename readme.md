@@ -1,27 +1,15 @@
-# Courseplay for Farming Simulator 2013 v 3.2x
+# Courseplay for Farming Simulator 2013
 
-### Important Update Information™
-We've got a new website for Courseplay, containing all the glorious information you might ever need. Well, probably not. But if there is something you find missing, just holler, there's a good 50/50 chance that we're gonna add it.
+### We've moved
+We've moved to a **[new repository][CP Github]**. Please visit go there for any updates. We will not answer anymore to any issues posted here.
 
-Go check out the **[Courseplay Homepage][CP Website Link]**
+Our **[homepage][CP Website Link]** is still where it used to be .
 
 ----
-### "Achtung", "Wichtig", "Neu" und Konsorten
-Wir haben eine neue Courseplay-Website mit allen möglichen Informationen, Anleitungen usw. Wenn was fehlt schreibt uns an, und möglicherweise fügen wir's hinzu.
+### Wir sind umgezogen
+Wir sind auf ein **[neues Repository][CP Github]** umgezogen. Wir werden hier keine Supportanfragen mehr beantworten.
 
-Go check out the **[Courseplay Homepage][CP Website Link]**
+Unsere **[Homepage][CP Website Link]** ist immer doch da wo sie sein sollte.
 
+[CP Github]: https://github.com/Courseplay/courseplay
 [CP Website Link]: http://courseplay.github.com/courseplay/
-___
-
-## Credits  
-* Lautschreier      (Grundversion)
-* Hummel            (modhoster.de)
-* Wolverin0815      (Feldarbeitsmodus, HUD, ...)
-* Bastian82         (Feldarbeitsmodus, Optimierungen, ...)
-* Skydancer         (Feldkursgenerierung, Güllezubringerunterstützung, ...)
-* Jakob Tischler    (all kinds if unnecessary stuff)
-* Thomas Gärtner    (all his work is based on children's tears)
-   
-   
-   
